@@ -1,11 +1,11 @@
 # FPGA GOWIN LAB1 pablinza@me.com
 Descripcion de circuitos digitales para FPGA
 Carpeta con los proyectos generados por GOWIN EDA utilizando el chip GW1NR-LV9QN88PC6/I5 de la placa Tangnano9k.<br />
-El software IDE esta disponible en la pagina del fabricante GOWIN [Enlace](https://www.gowinsemi.com/en/support/home/) <br />
-La documentacion de la Tangnano9k puedes encontrarla en el sitio [Enlace](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
+El software IDE esta disponible en la pagina del fabricante GOWIN [ --> Click](https://www.gowinsemi.com/en/support/home/) <br />
+La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
 La descripcion de los circuitos se realizan en el lenguaje Verilog evintando en lo posible el uso de IP, a excepcion de implementaciones mas complejas.
 Se utilizo la version linux GOWIN EDA V1.9.8.10 corriendo en la distro Debian 13 kernel 6.12.25-rt-amd64
-Se utiliza openFPGALoacer para cargar el bitstream file.fs en la memoria FPGA [Enlace](https://github.com/trabucayre/openFPGALoader) <br />
+Se utiliza openFPGALoacer para cargar el bitstream file.fs en la memoria FPGA [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
 
 ##Lista de circuitos digitales implementados con tangnano9k
 ### - P01 - Destello de Luz Secuencial   [APPBASE]
