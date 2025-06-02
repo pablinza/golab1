@@ -5,7 +5,7 @@ El software IDE esta disponible en la pagina del fabricante GOWIN [ --> Click](h
 La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
 La descripcion de circuitos se realiza con Verilog evitando en lo posible el uso de codigo IP, a excepcion de implementaciones mas complejas.
 Se utilizo la version linux GOWIN EDA V1.9.11.02 corriendo en la distro Debian 13, abajo dejo un video de como realizar la instalacion del software.
-Se utiliza openFPGALoacer para cargar el bitstream file.fs en la memoria FPGA [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
+Se utiliza openFPGALoader para cargar el bitstream file.fs en la memoria FPGA [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
 ##Instalacion del GOWIN EDA y Activacion de Licencia 
 **Video YOUTUBE**
 ##Lista de circuitos digitales implementados con tangnano9k
