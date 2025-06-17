@@ -6,14 +6,14 @@ La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](ht
 La descripcion de circuitos se realiza con Verilog evitando en lo posible el uso de codigo IP, a excepcion de implementaciones mas complejas.
 Se utilizo la version linux GOWIN EDA V1.9.11.02 corriendo en la distro Debian 13, abajo dejo un video de como realizar la instalacion del software.
 Se utiliza openFPGALoader para cargar el bitstream file.fs en la memoria FPGA [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
-##Instalacion del GOWIN EDA y Activacion de Licencia 
+## Instalacion del GOWIN EDA y Activacion de Licencia 
 **Video YOUTUBE**
 Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio U.E.B Sistemas Digitales
 <p align="center">
   <img src="/images/tangnano9k.png"></img>
 </p>
 
-##Lista de circuitos digitales implementados con tangnano9k
+## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Circuito Multiplexor de 4 Canales [MUX4CH] 
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 
