@@ -12,18 +12,23 @@ Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Labora
 <p align="center">
   <img src="/images/tangnano9k.png"></img>
 </p>
+
 ##Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Circuito Multiplexor de 4 Canales [MUX4CH] 
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
+
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG]
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+
 ### - C03 - Circuito Sumador Paralelo de 4-bit [ADDER4B]
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+
 ### - C04 - Circuito Generador de Pulsos [CLOCKGEN]
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+
 ### - C05 - Circuito Contador de Segundos [COUNTERSEG]
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
