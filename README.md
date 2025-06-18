@@ -4,8 +4,8 @@ Carpeta con los proyectos generados por GOWIN EDA utilizando el chip GW1NR-LV9QN
 El software IDE esta disponible en la pagina del fabricante GOWIN [ --> Click](https://www.gowinsemi.com/en/support/home/) <br />
 La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
 La descripcion de circuitos se realiza con Verilog evitando en lo posible el uso de codigo IP, a excepcion de implementaciones mas complejas.
-Se utilizo la version linux GOWIN EDA V1.9.11.02 corriendo en la distro Debian 13, abajo dejo un video de como realizar la instalacion del software.
-Se utiliza openFPGALoader para cargar el bitstream file.fs en la memoria FPGA [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
+Se utilizo la version linux GOWIN EDA V1.9.11.02 corriendo en la distro Debian 13, abajo dejo un video de como realizar la instalacion del software a utilizar <br />
+Para cargar el bitstream del circuito en la memoria RAM/FPGA o EEPROM utilizare openFPGALoader por linea de comandos [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
 ## Instalacion del GOWIN EDA y Activacion de Licencia 
 **Video YOUTUBE**
 Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio U.E.B Sistemas Digitales
@@ -15,7 +15,7 @@ Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Labora
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Circuito Multiplexor de 4 Canales [MUX4CH] 
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
+Nuestro primer circuito muestra como implementar un multiplexor simple de cuatro canales, en este ejemplo trabajaremos el diseno empezando por una tabla de verdad para obtener la funcion logica simplificada y elaborar el esquema logico del circuito con la finalidad de llevar a cabo la descripcion del circuito en Verilog en los niveles de abstraccion visto en clase(puertas logicas, funcion logica y comportamiento). El las pruebas del funcionamiento utilizaremos pulsadores en las entradas y un led para las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
 
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG]
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. Para descripcion(https://youtu.be/rYyD9MK57Po)
