@@ -10,7 +10,7 @@ Para cargar el bitstream del circuito en la memoria RAM/FPGA o EEPROM utilizare 
   [![Alt text](https://img.youtube.com/vi/hmUjBX4lj0o/0.jpg)](https://www.youtube.com/watch?v=hmUjBX4lj0o)
 <br />
 Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio U.E.B Sistemas Digitales
-<p align="center">
+<p align="left">
   <img src="/images/tangnano9k.png"></img>
 </p>
 
