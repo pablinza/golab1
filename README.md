@@ -9,10 +9,11 @@ Para cargar el bitstream del circuito en la memoria RAM/FPGA o EEPROM utilizare 
 ## Instalacion del GOWIN EDA y Activacion de Licencia 
   [![Alt text](https://img.youtube.com/vi/hmUjBX4lj0o/0.jpg)](https://www.youtube.com/watch?v=hmUjBX4lj0o)
 <br />
-Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio U.E.B Sistemas Digitales
+Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio Sistemas Digitales
 <p align="left">
   <img src="/images/tangnano9k.png"></img>
 </p>
+El siguiente enlace[ -->Click Aqui] (http://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga-tangnano-9k.html) a mi blog se da una mejor descripcion de esta tarjeta, pero si realmente quieres entrar a fondo con el desarrollo de circuitos digitales te recomiendo que revisese los documentos del fabricante que son la mejor referencia de uso y resolucion de posibles errores (errdata).
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Circuito Multiplexor de 4 Canales [SMUX4] **En Desarrollo
