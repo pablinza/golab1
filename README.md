@@ -12,8 +12,9 @@ Para cargar el bitstream del circuito en la memoria RAM/FPGA o EEPROM utilizare 
 Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio Sistemas Digitales
 <p align="left">
   <img src="/images/tangnano9k.png"></img>
-</p>
-El siguiente enlace [ --> Click]([https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html](http://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga-tangnano-9k.html) a mi blog se da una mejor descripcion de esta tarjeta, pero si realmente quieres entrar a fondo con el desarrollo de circuitos digitales te recomiendo que revisese los documentos del fabricante que son la mejor referencia de uso y resolucion de posibles errores (errdata).
+</p> <br />
+El siguiente enlace [ --> Click](https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga-tangnano-9k.html) <br /> 
+a mi blog se da una mejor descripcion de esta tarjeta, pero si realmente quieres entrar a fondo con el desarrollo de circuitos digitales te recomiendo que revisese los documentos del fabricante que son la mejor referencia de uso y resolucion de posibles errores (errdata).
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Circuito Multiplexor de 4 Canales [SMUX4] **En Desarrollo
