@@ -17,7 +17,7 @@ El siguiente enlace (https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Multiplexor de 2 Canales para datos de 4-bit [MUX2S4B] **En Desarrollo
-Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseno de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://youtu.be/rYyD9MK57Po](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html)). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
+Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseno de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
 
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG] **En Desarrollo
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
