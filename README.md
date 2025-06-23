@@ -17,10 +17,10 @@ El siguiente enlace (https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Multiplexor de 2 Canales para datos de 4-bit [MUX2S4B] **En Desarrollo
-Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseno de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
+Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
 
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG] **En Desarrollo
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
+En este ejemplo se muestra la implementacion de un circuito decodificador binario a 7-Segmentos, para las pruebas de funcionamiento utilizaremos como salida una pantalla de 7-segmentos tipo Anodo Comun y en la entrada cuatro pulsadores para conformar un numero de 4-bit.  
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
 
 ### - C03 - Circuito Sumador Paralelo de 4-bit [ADDER4B] **En Desarrollo
@@ -28,7 +28,7 @@ El programa destella los leds conectados el PIC con frecuencia y ciclo de trabaj
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
 
 ### - C04 - Circuito Generador de Pulsos [CLOCKGEN] **En Desarrollo
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
+Se describira un contador MOD-10 y un divisor de frecuencia para conseguir pulsos aproximados de 1Hz a partir del cristal oscilador 27MHz integrado en la entrada CLK, entonces el contador se incrementara y se visualizara en dos pantallas de 7 segmentos.  
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
 
 ### - C05 - Circuito Contador de Segundos [COUNTERSEG] **En Desarrollo
