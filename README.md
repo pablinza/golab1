@@ -17,9 +17,6 @@ El siguiente enlace (https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Multiplexor de 2 Canales para datos de 4-bit [MUX2S4B] **En Desarrollo
-<p align="center">
-  <img src="/images/c01mux2s4bit.png"></img>
-</p> <br />
 Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
 
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG] **En Desarrollo
