@@ -24,7 +24,6 @@ Este primer circuito muestra la implementacion de un multiplexor simple de dos c
 
 ### - C02 - Circuito Decodificador a 7-Segmentos [DECO7SEG] **En Desarrollo
 En este ejemplo se muestra la implementacion de un circuito decodificador binario a 7-Segmentos, para las pruebas de funcionamiento utilizaremos como salida una pantalla de 7-segmentos tipo Anodo Comun y en la entrada cuatro pulsadores para conformar un numero de 4-bit. Opcionalmente se implementara una entrada de habilitacion para controlar en encendido y apagado de los segmentos.  
-Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
 <p align="center">
   <img src="/images/c02deco7seg.png"></img>
 </p> <br />
@@ -32,7 +31,6 @@ Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream 
 ### - C03 - Circuito Sumador Paralelo de 4-bit [ADDER4B] **En Desarrollo
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
 Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
-
 
 ### - C04 - Circuito Generador de Pulsos [CLOCKGEN] **En Desarrollo
 Se describira un contador MOD-10 y un divisor de frecuencia para conseguir pulsos aproximados de 1Hz a partir del cristal oscilador 27MHz integrado en la entrada CLK, entonces el contador se incrementara y se visualizara en dos pantallas de 7 segmentos.  
