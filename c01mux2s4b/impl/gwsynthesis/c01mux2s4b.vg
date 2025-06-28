@@ -1,0 +1,115 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.02"
+//Sat Jun 28 08:35:37 2025
+
+//Source file index table:
+//file0 "\/home/pablo/GowinProjects/golab1/c01mux2s4b/src/mux2s4b.v"
+`timescale 100 ps/100 ps
+module mux2s4b (
+  s,
+  a,
+  b,
+  y
+)
+;
+input s;
+input [3:0] a;
+input [3:0] b;
+output [3:0] y;
+wire s_d;
+wire [3:0] a_d;
+wire [3:0] b_d;
+wire [3:0] y_d;
+wire VCC;
+wire GND;
+  IBUF s_ibuf (
+    .O(s_d),
+    .I(s) 
+);
+  IBUF a_0_ibuf (
+    .O(a_d[0]),
+    .I(a[0]) 
+);
+  IBUF a_1_ibuf (
+    .O(a_d[1]),
+    .I(a[1]) 
+);
+  IBUF a_2_ibuf (
+    .O(a_d[2]),
+    .I(a[2]) 
+);
+  IBUF a_3_ibuf (
+    .O(a_d[3]),
+    .I(a[3]) 
+);
+  IBUF b_0_ibuf (
+    .O(b_d[0]),
+    .I(b[0]) 
+);
+  IBUF b_1_ibuf (
+    .O(b_d[1]),
+    .I(b[1]) 
+);
+  IBUF b_2_ibuf (
+    .O(b_d[2]),
+    .I(b[2]) 
+);
+  IBUF b_3_ibuf (
+    .O(b_d[3]),
+    .I(b[3]) 
+);
+  OBUF y_0_obuf (
+    .O(y[0]),
+    .I(y_d[0]) 
+);
+  OBUF y_1_obuf (
+    .O(y[1]),
+    .I(y_d[1]) 
+);
+  OBUF y_2_obuf (
+    .O(y[2]),
+    .I(y_d[2]) 
+);
+  OBUF y_3_obuf (
+    .O(y[3]),
+    .I(y_d[3]) 
+);
+  LUT3 y_d_3_s (
+    .F(y_d[3]),
+    .I0(b_d[3]),
+    .I1(a_d[3]),
+    .I2(s_d) 
+);
+defparam y_d_3_s.INIT=8'hAC;
+  LUT3 y_d_2_s (
+    .F(y_d[2]),
+    .I0(a_d[2]),
+    .I1(b_d[2]),
+    .I2(s_d) 
+);
+defparam y_d_2_s.INIT=8'hCA;
+  LUT3 y_d_1_s (
+    .F(y_d[1]),
+    .I0(a_d[1]),
+    .I1(b_d[1]),
+    .I2(s_d) 
+);
+defparam y_d_1_s.INIT=8'hCA;
+  LUT3 y_d_0_s (
+    .F(y_d[0]),
+    .I0(a_d[0]),
+    .I1(b_d[0]),
+    .I2(s_d) 
+);
+defparam y_d_0_s.INIT=8'hCA;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* mux2s4b */
