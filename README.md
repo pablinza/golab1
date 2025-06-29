@@ -13,7 +13,8 @@ Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Labora
 <p align="center">
   <img src="/images/tangnano9k.png"></img>
 </p> <br />
-El siguiente enlace (https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga-tangnano-9k.html) a mi blog da una mejor descripcion resumida de esta tarjeta. Si realmente quieres entrar a fondo con el desarrollo de circuitos digitales te recomiendo que revisese los documentos del fabricante que son la mejor referencia de uso y resolucion de posibles errores (errdata).
+El siguiente enlace (https://pcz1.blogspot.com/2025/06/introduccion-tarjeta-fpga-tangnano-9k.html) a mi blog da una mejor descripcion resumida de esta tarjeta. Si realmente quieres entrar a fondo con el desarrollo de circuitos digitales te recomiendo que revisese los documentos del fabricante que son la mejor referencia de uso y resolucion de posibles errores (errdata). <br />
+Cada carpeta del proyecto Gowin tiene el nombre precedido por el numero de actividad, en su estructura encontrara los modulos descriptivos Verilog con extension .v en la subcarpeta /src, mientras que el firmware .fs generado durante la sintesis se encuentra en la subcarpeta impl/pnr. <br />
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Multiplexor de 2 Canales para datos de 4-bit [MUX2S4B] **En Desarrollo
