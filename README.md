@@ -1,5 +1,5 @@
 # FPGA GOWIN LAB1 pablinza@me.com
-Descripcion de Circuitos Logicos Combinatorios __CLC__ con HDL / Verilog
+Descripcion de Circuitos Logicos Combinatorios __CLC__ con HDL / __Verilog__ <br />
 Carpeta con los proyectos generados por GOWIN EDA utilizando el chip GW1NR-LV9QN88PC6/I5 de la placa Tangnano9k.<br />
 El software IDE esta disponible en la pagina del fabricante GOWIN [ --> Click](https://www.gowinsemi.com/en/support/home/) <br />
 La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
