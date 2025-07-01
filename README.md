@@ -1,5 +1,5 @@
 # FPGA GOWIN LAB1 pablinza@me.com
-Descripcion de circuitos digitales I con HDL / Verilog
+Descripcion de Circuitos Logicos Combinatorios __CLC__ con HDL / Verilog
 Carpeta con los proyectos generados por GOWIN EDA utilizando el chip GW1NR-LV9QN88PC6/I5 de la placa Tangnano9k.<br />
 El software IDE esta disponible en la pagina del fabricante GOWIN [ --> Click](https://www.gowinsemi.com/en/support/home/) <br />
 La documentacion de la Tangnano9k puedes encontrarla en el sitio [ --> Click](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) <br />
@@ -29,23 +29,22 @@ En este ejemplo se muestra la implementacion de un circuito decodificador binari
   <img src="/images/c02deco7seg.png"></img>
 </p> <br />
 
-### - C03 - Multiplexor + Decodificador Encapsulador [MUX2DECO7SEG] **En Desarrollo
+### - C03 - Multiplexor + Decodificador Encapsulado [MUX2DECO7SEG] **En Desarrollo
 Este ejemplo muestra en base a dos los circuitos previamente descritos como crear un modulo de nivel superior __top.v__ que contiene la instancia de los módulos __mux2s4b.v__, __deco7seg.v__ de nivel inferior y define las conexiones entre sus entradas y salidas, creando la estructura completa del circuito. <br />
 <p align="center">
   <img src="/images/c03mux2deco7.png"></img>
 </p> <br />
 
-### - C04 - Circuito Sumador Paralelo de 4-bit [ADDER4B] **En Desarrollo
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
-Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+### - C04 - Sumador Paralelo de 4-bit con Decodificador BCD [ADDER4B] **En Desarrollo
+En desarrollo top.v<br />
 
-### - C05 - Circuito Generador de Pulsos [CLOCKGEN] **En Desarrollo
-Se describira un contador MOD-10 y un divisor de frecuencia para conseguir pulsos aproximados de 1Hz a partir del cristal oscilador 27MHz integrado en la entrada CLK, entonces el contador se incrementara y se visualizara en dos pantallas de 7 segmentos.  
-Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+### - C05 - Sumador Paralelo de 4-bit con Pantalla 7-Segmentos [ADDER4B] **En Desarrollo
+En desarrollo top.v <br />
 
-### - C06 - Circuito Contador de Segundos [COUNTERSEG] **En Desarrollo
-El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
-Adjunto el siguiente link que muestra como instalar gowin y cargar el bitstream a la FPGA<br />
+
+### - C06 - Sumador Paralelo de 4-bit con Pantalla 7-Segmentos multiplexado [CLOCKGEN] **En Desarrollo
+En desarrollo top.v <br />
+
 
 [Enlace](http://img.youtube.com/vi/w-GRu89glrg/0.jpg)](http://www.youtube.com/watch?v=w-GRu89glrg "Compilar en MPLABX")
 
