@@ -31,6 +31,9 @@ En este ejemplo se muestra la implementacion de un circuito decodificador binari
 
 ### - C03 - Multiplexor + Decodificador Encapsulador [MUX2DECO7SEG] **En Desarrollo
 Este ejemplo muestra en base a dos los circuitos previamente descritos como crear un modulo de nivel superior __top.v__ que contiene la instancia de los módulos __mux2s4b.v__, __deco7seg.v__ de nivel inferior y define las conexiones entre sus entradas y salidas, creando la estructura completa del circuito. <br />
+<p align="center">
+  <img src="/images/c03mux2deco7.png"></img>
+</p> <br />
 
 ### - C04 - Circuito Sumador Paralelo de 4-bit [ADDER4B] **En Desarrollo
 El programa destella los leds conectados el PIC con frecuencia y ciclo de trabajo diferente, se hace uso del temporizador TMR0 para realizar las tareas de forma concurrente sin bloquear le ejecucion del programa principal. EL modulo TMR0 esta configurado para temporizar intervalos de 1ms. 
