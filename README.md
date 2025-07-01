@@ -25,9 +25,7 @@ Este primer circuito muestra la implementacion de un multiplexor simple de dos c
 
 ### - C02 - Decodificador a 7-Segmentos [DECO7SEG] **En Desarrollo
 En este ejemplo se muestra la implementacion de un circuito decodificador binario a 7-Segmentos, para las pruebas de funcionamiento utilizaremos como salida una pantalla de 7-segmentos tipo Anodo Comun y en la entrada cuatro pulsadores para conformar un numero de 4-bit. Opcionalmente se implementara una entrada de habilitacion para controlar en encendido y apagado de los segmentos.  
-<p align="center">
-  <img src="/images/c02deco7seg.png"></img>
-</p> <br />
+![Esquema del Circuito](/images/c02deco7seg.png "Mi circuito")
 
 ### - C03 - Multiplexor + Decodificador Encapsulado [MUX2DECO7SEG] **En Desarrollo
 Este ejemplo muestra en base a dos los circuitos previamente descritos como crear un modulo de nivel superior __top.v__ que contiene la instancia de los módulos __mux2s4b.v__, __deco7seg.v__ de nivel inferior y define las conexiones entre sus entradas y salidas, creando la estructura completa del circuito. <br />
