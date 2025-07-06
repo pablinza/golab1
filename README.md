@@ -18,7 +18,7 @@ Cada carpeta del proyecto Gowin tiene el nombre precedido por el numero de activ
 
 ## Lista de circuitos digitales implementados con tangnano9k
 ### - C01 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
-Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/JHyLY0KzCJY)
+Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog [ -->Click](https://pcz2.blogspot.com/2025/06/101-circuito-multiplexor.html). la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/6vYBxJZodCU)
 <p align="center">
   <img src="/images/c01mux2s4bit.png"></img>
 </p> <br />
