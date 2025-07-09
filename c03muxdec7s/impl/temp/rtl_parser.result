@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v",
+    "InstLine" : 8,
+    "InstName" : "u1",
+    "ModuleFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/mux2s4b.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux2s4b"
+   },
+   {
+    "InstFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v",
+    "InstLine" : 9,
+    "InstName" : "u2",
+    "ModuleFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/deco7seg.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "deco7seg"
+   }
+  ]
+ }
+]

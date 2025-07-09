@@ -1,0 +1,274 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.02"
+//Tue Jul  8 22:08:25 2025
+
+//Source file index table:
+//file0 "\/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v"
+//file1 "\/home/pablo/GowinProjects/golab1/c03muxdec7s/src/mux2s4b.v"
+//file2 "\/home/pablo/GowinProjects/golab1/c03muxdec7s/src/deco7seg.v"
+`timescale 100 ps/100 ps
+module deco7seg (
+  en_d,
+  sel_d,
+  bcd1_d,
+  bcd2_d,
+  seg_d
+)
+;
+input en_d;
+input sel_d;
+input [3:0] bcd1_d;
+input [3:0] bcd2_d;
+output [6:0] seg_d;
+wire seg_d_6_6;
+wire seg_d_5_5;
+wire seg_d_4_5;
+wire seg_d_3_5;
+wire seg_d_2_5;
+wire seg_d_1_5;
+wire seg_d_0_5;
+wire seg_d_6_7;
+wire seg_d_6_8;
+wire seg_d_6_9;
+wire seg_d_6_10;
+wire VCC;
+wire GND;
+  LUT2 seg_d_6_s (
+    .F(seg_d[6]),
+    .I0(seg_d_6_6),
+    .I1(en_d) 
+);
+defparam seg_d_6_s.INIT=4'h7;
+  LUT2 seg_d_5_s (
+    .F(seg_d[5]),
+    .I0(seg_d_5_5),
+    .I1(en_d) 
+);
+defparam seg_d_5_s.INIT=4'h7;
+  LUT2 seg_d_4_s (
+    .F(seg_d[4]),
+    .I0(seg_d_4_5),
+    .I1(en_d) 
+);
+defparam seg_d_4_s.INIT=4'h7;
+  LUT2 seg_d_3_s (
+    .F(seg_d[3]),
+    .I0(seg_d_3_5),
+    .I1(en_d) 
+);
+defparam seg_d_3_s.INIT=4'h7;
+  LUT2 seg_d_2_s (
+    .F(seg_d[2]),
+    .I0(seg_d_2_5),
+    .I1(en_d) 
+);
+defparam seg_d_2_s.INIT=4'h7;
+  LUT2 seg_d_1_s (
+    .F(seg_d[1]),
+    .I0(seg_d_1_5),
+    .I1(en_d) 
+);
+defparam seg_d_1_s.INIT=4'h7;
+  LUT2 seg_d_0_s (
+    .F(seg_d[0]),
+    .I0(seg_d_0_5),
+    .I1(en_d) 
+);
+defparam seg_d_0_s.INIT=4'h7;
+  LUT4 seg_d_6_s0 (
+    .F(seg_d_6_6),
+    .I0(seg_d_6_7),
+    .I1(seg_d_6_8),
+    .I2(seg_d_6_9),
+    .I3(seg_d_6_10) 
+);
+defparam seg_d_6_s0.INIT=16'h3FE7;
+  LUT4 seg_d_5_s0 (
+    .F(seg_d_5_5),
+    .I0(seg_d_6_8),
+    .I1(seg_d_6_10),
+    .I2(seg_d_6_7),
+    .I3(seg_d_6_9) 
+);
+defparam seg_d_5_s0.INIT=16'hB2FD;
+  LUT4 seg_d_4_s0 (
+    .F(seg_d_4_5),
+    .I0(seg_d_6_9),
+    .I1(seg_d_6_8),
+    .I2(seg_d_6_10),
+    .I3(seg_d_6_7) 
+);
+defparam seg_d_4_s0.INIT=16'hF715;
+  LUT4 seg_d_3_s0 (
+    .F(seg_d_3_5),
+    .I0(seg_d_6_9),
+    .I1(seg_d_6_7),
+    .I2(seg_d_6_10),
+    .I3(seg_d_6_8) 
+);
+defparam seg_d_3_s0.INIT=16'hC7BC;
+  LUT4 seg_d_2_s0 (
+    .F(seg_d_2_5),
+    .I0(seg_d_6_7),
+    .I1(seg_d_6_8),
+    .I2(seg_d_6_10),
+    .I3(seg_d_6_9) 
+);
+defparam seg_d_2_s0.INIT=16'hDFF4;
+  LUT4 seg_d_1_s0 (
+    .F(seg_d_1_5),
+    .I0(seg_d_6_8),
+    .I1(seg_d_6_9),
+    .I2(seg_d_6_10),
+    .I3(seg_d_6_7) 
+);
+defparam seg_d_1_s0.INIT=16'hF8E6;
+  LUT4 seg_d_0_s0 (
+    .F(seg_d_0_5),
+    .I0(seg_d_6_8),
+    .I1(seg_d_6_10),
+    .I2(seg_d_6_9),
+    .I3(seg_d_6_7) 
+);
+defparam seg_d_0_s0.INIT=16'hCF79;
+  LUT3 seg_d_6_s1 (
+    .F(seg_d_6_7),
+    .I0(bcd1_d[0]),
+    .I1(bcd2_d[0]),
+    .I2(sel_d) 
+);
+defparam seg_d_6_s1.INIT=8'h35;
+  LUT3 seg_d_6_s2 (
+    .F(seg_d_6_8),
+    .I0(bcd1_d[1]),
+    .I1(bcd2_d[1]),
+    .I2(sel_d) 
+);
+defparam seg_d_6_s2.INIT=8'h35;
+  LUT3 seg_d_6_s3 (
+    .F(seg_d_6_9),
+    .I0(bcd2_d[3]),
+    .I1(bcd1_d[3]),
+    .I2(sel_d) 
+);
+defparam seg_d_6_s3.INIT=8'h53;
+  LUT3 seg_d_6_s4 (
+    .F(seg_d_6_10),
+    .I0(bcd1_d[2]),
+    .I1(bcd2_d[2]),
+    .I2(sel_d) 
+);
+defparam seg_d_6_s4.INIT=8'h35;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* deco7seg */
+module top (
+  bcd1,
+  bcd2,
+  sel,
+  en,
+  seg
+)
+;
+input [3:0] bcd1;
+input [3:0] bcd2;
+input sel;
+input en;
+output [6:0] seg;
+wire sel_d;
+wire en_d;
+wire [3:0] bcd1_d;
+wire [3:0] bcd2_d;
+wire [6:0] seg_d;
+wire VCC;
+wire GND;
+  IBUF bcd1_0_ibuf (
+    .O(bcd1_d[0]),
+    .I(bcd1[0]) 
+);
+  IBUF bcd1_1_ibuf (
+    .O(bcd1_d[1]),
+    .I(bcd1[1]) 
+);
+  IBUF bcd1_2_ibuf (
+    .O(bcd1_d[2]),
+    .I(bcd1[2]) 
+);
+  IBUF bcd1_3_ibuf (
+    .O(bcd1_d[3]),
+    .I(bcd1[3]) 
+);
+  IBUF bcd2_0_ibuf (
+    .O(bcd2_d[0]),
+    .I(bcd2[0]) 
+);
+  IBUF bcd2_1_ibuf (
+    .O(bcd2_d[1]),
+    .I(bcd2[1]) 
+);
+  IBUF bcd2_2_ibuf (
+    .O(bcd2_d[2]),
+    .I(bcd2[2]) 
+);
+  IBUF bcd2_3_ibuf (
+    .O(bcd2_d[3]),
+    .I(bcd2[3]) 
+);
+  IBUF sel_ibuf (
+    .O(sel_d),
+    .I(sel) 
+);
+  IBUF en_ibuf (
+    .O(en_d),
+    .I(en) 
+);
+  OBUF seg_0_obuf (
+    .O(seg[0]),
+    .I(seg_d[0]) 
+);
+  OBUF seg_1_obuf (
+    .O(seg[1]),
+    .I(seg_d[1]) 
+);
+  OBUF seg_2_obuf (
+    .O(seg[2]),
+    .I(seg_d[2]) 
+);
+  OBUF seg_3_obuf (
+    .O(seg[3]),
+    .I(seg_d[3]) 
+);
+  OBUF seg_4_obuf (
+    .O(seg[4]),
+    .I(seg_d[4]) 
+);
+  OBUF seg_5_obuf (
+    .O(seg[5]),
+    .I(seg_d[5]) 
+);
+  OBUF seg_6_obuf (
+    .O(seg[6]),
+    .I(seg_d[6]) 
+);
+  deco7seg u2 (
+    .en_d(en_d),
+    .sel_d(sel_d),
+    .bcd1_d(bcd1_d[3:0]),
+    .bcd2_d(bcd2_d[3:0]),
+    .seg_d(seg_d[6:0])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* top */

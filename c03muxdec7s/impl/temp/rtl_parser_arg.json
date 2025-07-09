@@ -1,0 +1,25 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/mux2s4b.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/src/deco7seg.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/pablo/GowinProjects/golab1/c03muxdec7s/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
