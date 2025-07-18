@@ -37,6 +37,9 @@ Este ejemplo muestra en base a dos los circuitos previamente descritos como crea
 
 ### - C04 - Sumador Paralelo de 4-bit con Decodificador BCD [ADDER4B] **En Desarrollo
 En desarrollo top.v<br />
+<p align="center">
+  <img src="/images/c04adder4bit.png"></img>
+</p> <br />
 
 ### - C05 - Sumador Paralelo de 4-bit con Pantalla 7-Segmentos [ADDER4B] **En Desarrollo
 En desarrollo top.v <br />
