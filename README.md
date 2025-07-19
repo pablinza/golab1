@@ -29,7 +29,7 @@ En este ejemplo se muestra la implementacion de un circuito decodificador binari
 </p> <br />
 
 ### - C03 - Multiplexor + Decodificador Encapsulado [MUX2DECO7SEG]
-Este ejemplo muestra en base a dos los circuitos previamente descritos como crear un modulo de nivel superior __top.v__ que contiene la instancia de los módulos __mux2s4b.v__, __deco7seg.v__ de nivel inferior y define las conexiones entre sus entradas y salidas, creando la estructura completa del circuito. Para ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
+Este ejemplo muestra en base a dos los circuitos previamente descritos como crear un modulo de nivel superior __top.v__ que contiene la instancia de los módulos __mux2s4b.v__, __deco7seg.v__ de nivel inferior y define las conexiones entre sus entradas y salidas, creando la estructura completa del circuito. Para ver el video de la implementacion[ -->Click](https://youtu.be/CfTUlFRT2o0)
 <p align="center">
   <img src="/images/c03mux2deco7.png"></img>
 </p> <br />
