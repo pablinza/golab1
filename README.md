@@ -7,7 +7,7 @@ La descripcion de circuitos se realiza con Verilog evitando en lo posible el uso
 Se utilizo la version linux GOWIN EDA V1.9.11.02 corriendo en la distro Debian 13, abajo dejo un video de como realizar la instalacion del software a utilizar <br />
 Para cargar el bitstream del circuito en la memoria RAM/FPGA o EEPROM utilizare openFPGALoader por linea de comandos [ -->Click](https://github.com/trabucayre/openFPGALoader) <br />
 ## Instalacion del GOWIN EDA y Activacion de Licencia 
-En el siguiente enlace [--> Click](https://www.youtube.com/watch?v=hmUjBX4lj0o)se muestra un video donde se realiza la descarga e instalacion del software GOWIN EDA. 
+En el siguiente enlace [--> Click](https://www.youtube.com/watch?v=hmUjBX4lj0o) veras un video que muestra como se realiza la descarga e instalacion del software GOWIN EDA. 
 Descripcion de la Placa Sipeed Tangnano9K para el montaje de circuitos en Laboratorio Sistemas Digitales
 <p align="center">
   <img src="/images/tangnano9k.png"></img>
