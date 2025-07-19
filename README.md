@@ -36,7 +36,7 @@ Este ejemplo muestra en base a dos los circuitos previamente descritos como crea
 
 ### - C04 - Sumador Paralelo de 4-bit con Decodificador BCD [ADDER4BIT]
 Se implementa un circuito sumador de numeros binarios de 4-bit con salida visual de dos digitos decimales en pantallas de 7 segmentos, este ejercicio es  
-un ejemplo mas de como integrar en un modulo __top.v__ de nivel superior las instancias correspondientes a los modulos sumador __adder.v__, decodificador bcd __decobcd.v__ y decodificador 7 segmentos __deco7seg.v__. Para ver el video de la implementacion[ -->Click](https://youtu.be/rYyD9MK57Po)
+un ejemplo mas de como integrar en un modulo __top.v__ de nivel superior las instancias correspondientes a los modulos sumador __adder.v__, decodificador bcd __decobcd.v__ y decodificador 7 segmentos __deco7seg.v__. Para ver el video de la implementacion[ -->Click](https://youtu.be/fT7mhHDEU84)
 <p align="center">
   <img src="/images/c04adder4bit.png"></img>
 </p> <br />
