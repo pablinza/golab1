@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Alu="4(0)" T_Lut="24(0)">
+ <SubModule name="u1" Alu="4" T_Alu="4(4)"/>
+ <SubModule name="u3" Lut="16" T_Lut="16(16)"/>
+ <SubModule name="u4" Lut="8" T_Lut="8(8)"/>
+</Module>
