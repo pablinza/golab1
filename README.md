@@ -41,7 +41,7 @@ un ejemplo mas de como integrar en un modulo __top.v__ de nivel superior las ins
   <img src="/images/c04adder4bit.png"></img>
 </p> <br />
 
-### - C05 - Unidad Aritmetica - Logica de 4-bit [ALU4BIT] **En Desarrollo
+### - C05 - Restado Paralelo de 4-bit [SUBTR4BIT] **En Desarrollo
 En desarrollo top.v <br />
 ### - C06 - Generador de Pulsos de Reloj [CLOCKGEN] **En Desarrollo
 En desarrollo top.v <br />
