@@ -35,14 +35,13 @@ Este ejemplo muestra en base a dos los circuitos previamente descritos como crea
 </p> <br />
 
 ### - C04 - Sumador Paralelo de 4-bit con Decodificador BCD [ADDER4BIT]
-Se implementa un circuito sumador de numeros binarios de 4-bit con salida visual de dos digitos decimales en pantallas de 7 segmentos, este ejercicio es  
-un ejemplo mas de como integrar en un modulo __top.v__ de nivel superior las instancias correspondientes a los modulos sumador __adder.v__, decodificador bcd __decobcd.v__ y decodificador 7 segmentos __deco7seg.v__. Para ver el video de la implementacion[ -->Click](https://youtu.be/fT7mhHDEU84)
+En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros binarios de 4-bit con salida visual de dos digitos decimales en pantallas de 7 segmentos, este ejercicio es un ejemplo mas de como integrar en un modulo __top.v__ de nivel superior las instancias correspondientes a los modulos sumador __adder.v__, decodificador bcd __decobcd.v__ y decodificador 7 segmentos __deco7seg.v__. Para ver el video de la implementacion[ -->Click](https://youtu.be/fT7mhHDEU84)
 <p align="center">
   <img src="/images/c04adder4bit.png"></img>
 </p> <br />
 
 ### - C05 - Restado Paralelo de 4-bit [SUBTR4BIT] **En Desarrollo
-En desarrollo top.v <br />
+En el ejercicio se implemeta un circuito restador aritmetico (A-B) para numeros de 4-bit, utilizando el procedimiento de complenento a dos (C2), por tanto se describira un circuito inversor y de incremento para la entrada B (sustraendo) cuya salida ingresara a un sumador paralelo con la entrada A (minuendo). Todo se integrara en un modulo de nivel superior __top.v__ <br />
 ### - C06 - Generador de Pulsos de Reloj [CLOCKGEN] **En Desarrollo
 En desarrollo top.v <br />
 ### - C07 - Maquina de Estados Finitos para ADC [ADC0804] **En Desarrollo
