@@ -40,17 +40,16 @@ En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros bi
   <img src="/images/c04adder4bit.png"></img>
 </p> <br />
 
-### - C05 - Restado Paralelo de 4-bit [SUBTR4BIT] **En Desarrollo
-En el ejercicio se implemeta un circuito restador aritmetico (A-B) para numeros de 4-bit, utilizando el procedimiento de complenento a dos (C2), por tanto se describira un circuito inversor y de incremento para la entrada B (sustraendo) cuya salida ingresara a un sumador paralelo con la entrada A (minuendo). Todo se integrara en un modulo de nivel superior __top.v__ <br />
-### - C06 - Generador de Pulsos de Reloj [CLOCKGEN] **En Desarrollo
+### - C05 - Oscilador y Temporizador [CLOCKGEN] **En Desarrollo
+Este ejemplo muestra como crear un temporizador para generar dos senales de reloj de baja frecuencia 1KHz utilizando el circuito oscilador externo de 27MHz (clk1) y tambien el oscilador interno (clk2) que posee la FPGA a travez del generador IP. La salida del circuito destellara dos luces a 1Hz (20% encendido) que trabajan de forma independiente. Adcionalmente se creara un circuito de control de estado para una salida digital (pin) utilizando un pulsador mecanico (pin) considerando el efecto de reboote (debounce).  
 En desarrollo top.v <br />
-### - C07 - Maquina de Estados Finitos para ADC [ADC0804] **En Desarrollo
+### - C06 - Maquina de Estados Finitos para ADC [ADC0804] **En Desarrollo
 En desarrollo top.v <br />
-### - C08 - Multiplexacion por Division de Tiempo [TDM7SEG] **En Desarrollo
+### - C07 - Multiplexacion por Division de Tiempo [TDM7SEG] **En Desarrollo
 En desarrollo top.v <br />
-### - C09 - Medidor de Ancho de Pulso [TIMEHC04] **En Desarrollo
+### - C08 - Medidor de Ancho de Pulso [TIMEHC04] **En Desarrollo
 En desarrollo top.v <br />
-### - C10 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
+### - C09 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
 En desarrollo top.v <br />
 
 Autor: Pablo Zarate, puedes contactarme a pablinza@me.com / pablinzte@gmail.com.  <br />
