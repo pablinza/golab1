@@ -41,7 +41,7 @@ En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros bi
 </p> <br />
 
 ### - C05 - Oscilador y Temporizador [CLOCKGEN] **En Desarrollo
-Este ejemplo muestra como crear un temporizador para generar dos senales de reloj de baja frecuencia 1KHz utilizando el circuito oscilador externo de 27MHz (clk1) y tambien el oscilador interno (clk2) que posee la FPGA a travez del generador IP. La salida del circuito destellara dos luces a 1Hz (20% encendido) que trabajan de forma independiente. Adcionalmente se creara un circuito de control de estado para una salida digital (pin) utilizando un pulsador mecanico (pin) considerando el efecto de reboote (debounce).  
+Este ejemplo muestra como crear un temporizador para generar dos señales de reloj de baja frecuencia 1KHz utilizando el cristal oscilador externo de 25MHz (CLK) y tambien el oscilador interno que incorpora la FPGA utilizando la core IP. La salida del circuito destellara dos luces a 1Hz (20% encendido) que trabajan de forma independiente. Adcionalmente se creara un circuito de control de estado para una salida digital (LED6) utilizando un pulsador mecanico (S1) considerando el efecto de reboote (debounce).  
 En desarrollo top.v <br />
 ### - C06 - Maquina de Estados Finitos para ADC [ADC0804] **En Desarrollo
 En desarrollo top.v <br />
