@@ -43,15 +43,16 @@ En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros bi
 ### - C05 - Oscilador y Temporizador [CLOCKGEN] **En Desarrollo
 Este ejemplo muestra como crear un temporizador para generar dos señales de reloj de baja frecuencia 1KHz utilizando el cristal oscilador externo de 25MHz (CLK) y tambien el oscilador interno que incorpora la FPGA utilizando la core IP. La salida del circuito destellara dos luces a 1Hz (20% encendido) que trabajan de forma independiente. Adcionalmente se creara un circuito de control de estado para una salida digital (LED6) utilizando un pulsador mecanico (S1) considerando el efecto de reboote (debounce).  
 En desarrollo top.v <br />
-### - C06 - Maquina de Estados Finitos para ADC [ADC0804] **En Desarrollo
-En desarrollo top.v <br />
+### - C06 - Maquina de Estados Finitos para Encoder Rotatorio [ROTENC] **En Desarrollo
+Este ejemplo muestra como describir una maquina de estados finitos __MEF__ para llevar a cabo la lectura de un Encoder Rotativo (KY-040) con la que sera posible controlar el encendido secuencial de ocho luces led RGB en arreglo CA (Anodo Comun), ademas un pulsador que forma parte del modulo KY posibilitara cambiar el color de la luz entre Rojo, Verde y Azul. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior br />
 ### - C07 - Multiplexacion por Division de Tiempo [TDM7SEG] **En Desarrollo
-En desarrollo top.v <br />
-### - C08 - Medidor de Ancho de Pulso [TIMEHC04] **En Desarrollo
-En desarrollo top.v <br />
+El ejemplo muestra como implementar la multiplexacion por division de tiempo aplicado al control de cuatro pantallas de siete segmentos del modulo HC57xx, se tomara como base el modulo para lectura de un codificador rotativo KY-040 con la que sera posible incrementar y decrementar la magnitud que se muestra en la pantalla. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior <br />
+### - C08 - Captura de Datos Analogicos [ADCSENSE] **En Desarrollo
+En este ejemplo, con el fin de medir senales analogicas, se describe un driver para el convertidor ADC INxxxx de cuatro canales. El circuito medira la senal analogica de un canal analogico y mostrara su valor sin procesar en una pantalla o salida de datos serial (IPCore). <br />
 ### - C09 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
-En desarrollo top.v <br />
-
+Aplicado al control de tres servomotores, dos se controlan con un joystick Eje X y Eje Y y uno mediante codificadores rotativos top.v <br />
+### - C10 - Salida de Datos por Video HMDI  [HDMIP1]
+Aplicado al uso de la interface HDMI (IPcore) de la placa tangnano 9K, se muestra como enviar datos <br />
 Autor: Pablo Zarate, puedes contactarme a pablinza@me.com / pablinzte@gmail.com.  <br />
 Visita mi Blog  [Blog de Contenidos](https://pablinza.blogspot.com/). <br />
 Visita mi Canal [Blog de Contenidos](http://www.youtube.com/@pablozarate7524). <br />
