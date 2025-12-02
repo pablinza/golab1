@@ -42,7 +42,10 @@ En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros bi
 
 ### - C05 - Oscilador y Temporizador [CLOCKGEN] **En Desarrollo
 En este ejemplo veremos en primera instancia como generar dos señales de reloj (CKDIV) de baja frecuencia, la primera señal de reloj __fo1__ utilizara el Cristal de 27MHz conectado al pin 52(GCLKT3), la otra señal de reloj __fo2__ usara el oscilador interno (onchip) de 250MHz que activaremos con la primitiva OSC o generador IP Core. Adicionalmente a la salida de cada senal de reloj se adicionaran divisores con salidas __so1__ y __so2__ para destellara luces leds a 1Hz y 4Hz respectivamente.   
-En desarrollo top.v <br />
+<p align="center">
+  <img src="/images/c05clockgen.png"></img>
+</p> <br />
+
 ### - C06 - Maquina de Estados Finitos para uso de Encoder y Pantalla [ENC7SEG] **En Desarrollo 
 Este ejemplo muestra como describir una maquina de estados finitos __MEF1__ para llevar a cabo la lectura de un Encoder Rotativo (KY-040) con la que sera posible ajustar un numero entero de cuatro digitos. Otra maquina de estados finitos __MEF2__ controlara una Pantalla HC57xx que agrupa 4 digitos de 7-Segmentos para utilizar la tecnica de multiplexacion por division de tiempo TDM. Entonces desde el Encoder KY-040 se podra ajustar cada digito del numero que muestra la Pantalla HC57xx. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior br />
 ### - C07 - Medicion de Distancia por Ultrasonido [HCDIST] **En Desarrollo
