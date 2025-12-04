@@ -1,0 +1,32 @@
+Reading netlist file: "/home/pablo/GowinProjects/golab1/c05clockgen/impl/gwsynthesis/c05clockgen.vg"
+Parsing netlist file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/gwsynthesis/c05clockgen.vg" completed
+Processing netlist completed
+Reading constraint file: "/home/pablo/GowinProjects/golab1/c05clockgen/src/top.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'fo1' was determined to be a clock but was not created.
+WARN  (TA1132) :  'fo2' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/pnr/c05clockgen.power.html" completed
+Generate file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/pnr/c05clockgen.pin.html" completed
+Generate file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/pnr/c05clockgen.rpt.html" completed
+Generate file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/pnr/c05clockgen.rpt.txt" completed
+Generate file "/home/pablo/GowinProjects/golab1/c05clockgen/impl/pnr/c05clockgen.tr.html" completed
+Tue Dec  2 07:10:48 2025
+
