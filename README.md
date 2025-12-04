@@ -48,6 +48,10 @@ En este ejemplo veremos en primera instancia como generar dos señales de reloj 
 
 ### - C06 - Maquina de Estados Finitos para uso de Encoder y Pantalla [ENC7SEG] **En Desarrollo 
 Este ejemplo muestra como describir una maquina de estados finitos __MEF1__ para llevar a cabo la lectura de un Encoder Rotativo (KY-040) con la que sera posible ajustar un numero entero de cuatro digitos 0000-9999. Otra maquina de estados finitos __MEF2__ controlara una Pantalla LTC-5723 que agrupa 4 digitos de 7-Segmentos para utilizar la tecnica de multiplexacion por division de tiempo TDM. Entonces desde el Encoder KY-040 se podra ajustar cada digito del numero que muestra la Pantalla LTC-HC5723. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior br />
+<p align="center">
+  <img src="/images/c06enc7seg.png"></img>
+</p> <br />
+
 ### - C07 - Medicion de datos utilizando Convertidor ADC [ADCSENSE] **En Desarrollo
 Con el fin de medir senales analogicas, se describe un driver para el convertidor ADC/DAC de 8-bit PCF8591 de cuatro canales. El circuito medira la senal analogica de cuatro canales ANS1-ANS4 conectados a potenciometros que permitira variar el voltaje de entrada, el resultado de la conversion ADC seran enviados por puerto serial UART. La implementacion del protocolo I2C y UART se realizara utilizando el generador IPCore. <br />
 ### - C08 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
