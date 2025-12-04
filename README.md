@@ -23,7 +23,7 @@ Este primer circuito muestra la implementacion de un multiplexor simple de dos c
 </p> <br />
 
 ### - C02 - Decodificador a 7-Segmentos [DECO7SEG]
-En este ejemplo se muestra la implementacion de un circuito decodificador binario a 7-Segmentos, para las pruebas de funcionamiento utilizaremos como salida una pantalla de 7-segmentos tipo Anodo Comun y en la entrada cuatro pulsadores para conformar un numero de 4-bit. Opcionalmente se implementara una entrada de habilitacion para controlar en encendido y apagado de los segmentos. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/ga8ZXKIZHBI)
+En este ejemplo se muestra la implementacion de un circuito decodificador binario a 7-Segmentos, para las pruebas de funcionamiento utilizaremos como salida una pantalla de 7-segmentos tipo Anodo Comun y en la entrada cuatro pulsadores para conformar un numero de 4-bit en el rango 00 a 15. Opcionalmente se implementara una entrada de habilitacion para controlar en encendido y apagado de los segmentos. Puedes ver el video de la implementacion[ -->Click](https://youtu.be/ga8ZXKIZHBI)
 <p align="center">
   <img src="/images/c02deco7seg.png"></img>
 </p> <br />
@@ -47,14 +47,12 @@ En este ejemplo veremos en primera instancia como generar dos señales de reloj 
 </p> <br />
 
 ### - C06 - Maquina de Estados Finitos para uso de Encoder y Pantalla [ENC7SEG] **En Desarrollo 
-Este ejemplo muestra como describir una maquina de estados finitos __MEF1__ para llevar a cabo la lectura de un Encoder Rotativo (KY-040) con la que sera posible ajustar un numero entero de cuatro digitos. Otra maquina de estados finitos __MEF2__ controlara una Pantalla HC57xx que agrupa 4 digitos de 7-Segmentos para utilizar la tecnica de multiplexacion por division de tiempo TDM. Entonces desde el Encoder KY-040 se podra ajustar cada digito del numero que muestra la Pantalla HC57xx. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior br />
-### - C07 - Medicion de Distancia por Ultrasonido [HCDIST] **En Desarrollo
-El ejemplo muestra como implementar la multiplexacion por division de tiempo aplicado al control de cuatro pantallas de siete segmentos del modulo HC57xx, se tomara como base el modulo para lectura de un codificador rotativo KY-040 con la que sera posible incrementar y decrementar la magnitud que se muestra en la pantalla. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior <br />
-### - C08 - Captura de Datos Analogicos [ADCSENSE] **En Desarrollo
-En este ejemplo, con el fin de medir senales analogicas, se describe un driver para el convertidor ADC INxxxx de cuatro canales. El circuito medira la senal analogica de un canal analogico y mostrara su valor sin procesar en una pantalla o salida de datos serial (IPCore). <br />
-### - C09 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
-Aplicado al control de tres servomotores, dos se controlan con un joystick Eje X y Eje Y y uno mediante codificadores rotativos top.v <br />
-### - C10 - Salida de Datos por Video HMDI  [HDMIP1]
+Este ejemplo muestra como describir una maquina de estados finitos __MEF1__ para llevar a cabo la lectura de un Encoder Rotativo (KY-040) con la que sera posible ajustar un numero entero de cuatro digitos 0000-9999. Otra maquina de estados finitos __MEF2__ controlara una Pantalla LTC-5723 que agrupa 4 digitos de 7-Segmentos para utilizar la tecnica de multiplexacion por division de tiempo TDM. Entonces desde el Encoder KY-040 se podra ajustar cada digito del numero que muestra la Pantalla LTC-HC5723. Los diferentes modulos del circuito se integran en un modulo __top.v__ de nivel superior br />
+### - C07 - Medicion de datos utilizando Convertidor ADC [ADCSENSE] **En Desarrollo
+Con el fin de medir senales analogicas, se describe un driver para el convertidor ADC/DAC de 8-bit PCF8591 de cuatro canales. El circuito medira la senal analogica de cuatro canales ANS1-ANS4 conectados a potenciometros que permitira variar el voltaje de entrada, el resultado de la conversion ADC seran enviados por puerto serial UART. La implementacion del protocolo I2C y UART se realizara utilizando el generador IPCore. <br />
+### - C08 - Modulacion de Ancho de Pulso [PWMSERVO] **En Desarrollo
+Este ejemplo tiene como base el circuito anterior y muestra usar resultado de la conversion ADC PCF8591 al control de servomotores, se creara un modulador de ancho de pulso de 8-bit, que controlara de forma independiente cada unos de los servomotores mediante un joystick de dos ejes X-Y y un potenciometro. La implementacion de salida se llevara a cabo en un brazo robot con garra <br />
+### - C09 - Salida de Datos por Video HMDI  [HDMIP1]
 Aplicado al uso de la interface HDMI (IPcore) de la placa tangnano 9K, se muestra como enviar datos <br />
 Autor: Pablo Zarate, puedes contactarme a pablinza@me.com / pablinzte@gmail.com.  <br />
 Visita mi Blog  [Blog de Contenidos](https://pablinza.blogspot.com/). <br />
