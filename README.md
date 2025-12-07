@@ -40,7 +40,7 @@ En este ejemplo se implementa un circuito sumador aritmetico (A+B) de numeros bi
   <img src="/images/c04adder4bit.png"></img>
 </p> <br />
 
-### - C05 - Oscilador y Temporizador con Divisores [CLOCKGEN] **En Desarrollo
+### - C05 - Oscilador y Temporizador con Divisores [CLOCKGEN]
 En este ejemplo veremos en primera instancia como generar dos señales de reloj (CKDIV) de baja frecuencia, la primera señal de reloj __fo1__ utilizara el Cristal de 27MHz conectado al pin 52(GCLKT3), la otra señal de reloj __fo2__ usara el oscilador interno (onchip) de 250MHz que activaremos con la primitiva OSC o generador IP Core. Adicionalmente a la salida de cada senal de reloj se adicionaran divisores con salidas __so1__ y __so2__ para destellara luces leds a 1Hz y 4Hz respectivamente. Considerar que en este ejemplo todos los elementos del circuito forman parte de la placa TangNano9K.  
 <p align="center">
   <img src="/images/c05clockgen.png"></img>
